@@ -1,0 +1,150 @@
+*
+{
+    margin:0px; padding:0px;
+    box-sizing: border-box;
+
+}
+body{
+   font-size:14px ;
+    color: rgb(20 23 26);
+    cursor: pointer;
+    --twitter-color: #50b7f5;
+    --twitter-background:#e6ecf0;
+
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    width: 25%;
+
+}
+.leftitem
+{
+   display:flex;
+   flex-direction: row;
+   padding:7px;
+   margin-left: 250px;
+}
+.temblom
+{
+    
+   color: rgb(29, 161, 242);
+}
+h4{
+    padding:10px
+}
+.leftitem:hover
+{
+    -webkit-box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.3);
+  background-color: rgb(170, 184, 194);
+  border-radius: 25px;
+}
+.btn
+{background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.midheader
+{
+    position: sticky;
+    top: 0;background-color: 1px solid white  ;
+    border: 1px solid var(--twitter-background) ;
+    padding: 15px;
+}
+.midheader h2
+{
+    font-size: 20px;
+ font-weight: 800;
+}
+
+.right
+{
+    width:30%;
+}
+.main
+{
+    display: flex; flex-direction: row ;
+}
+
+.tweetboxinput
+{
+    display: flex;
+    padding:20px;
+    margin-left: 50px;
+    border-radius: 30px;
+    border:none;
+    font-size:20px;
+
+}
+
+.tweetboxinput img{
+    border-radius: 50%;
+    -ms-hyphenate-limit-zone: 40px;
+
+}
+.tweetbox
+{
+    display: flex;
+    flex-direction: column;
+}
+.btn1
+{
+    background-color: var(--twitter-color);
+    border: none;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 435px;
+
+}
+.postpic
+{
+    border-radius: 50%;
+    height: 40px;
+}
+.post{display: flex;
+   
+align-items:flex-start ;
+border-bottom: 1px solid var(--twitter-background);
+padding-bottom: 10px;
+}
+.postbody
+{
+    flex:1;
+    padding: 10px;;
+}
+.postheader h3
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}
+.postheaderspecial
+{
+color:gray;
+}
+.xx
+{
+    padding: 20px;
+}
+.container
+{
+    
+    width: 40%;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--twitter-background) ;
+}
